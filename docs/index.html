@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
-    <title>Bootstrap 4 Layout</title>
+    <title>The Ship's Log</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
   </head>
 
-  <body>
-    <!-- Content starts here -->
-    <p>Testing: 1, 2, 3, 4</p>
-
+<body>
+  <div id="container">
+    <div id="pagewrap">
+  <!-- NavBar-->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Pirate's Cove</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item-active">
+            <a class="nav-link" href="#">Index</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+     </nav>
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <h3 class="display-4">Ship's Log</h3>
+      <p class="lead">From the diaries of Capt. Roland "The Red Rackaterer" Hertz</p>
+      <p class="lead">
+      </p>
+    </div>
+    <!-- Column-->
+      <section>
+        <div class="row">
+          <div class="column">
+            <img src="img/pirate.jpg" alt="Pirate Portrait">
+            <p id="caption">By Roland Hertz</p>
+            <p id="source">North American Star</p>
+          </div>
+          <div class="column">
+            <h2 id="headline">The Seas Are Safe for None</h2>
+            <h4>Captain's Log 10/18/1762</h4>
+            <p id="body">Swing the lead provost bilge bounty gabion come about smartly black jack matey code of conduct. Plate Fleet brig draught trysail wench Chain Shot salmagundi  jury mast yawl Brethren of the Coast. Long boat bilged on her anchor jib wench brig port sutler salmagundi Nelsons folly cog.<br>
+              <br>Execution dock yawl grapple holystone gun Yellow Jack piracy scourge of the seven seas boom tender. Deadlights aye Spanish Main Sink me chase hands prow stern sutler loaded to the gunwalls. Gabion handsomely Shiver me timbers Arr Spanish Main avast Jack Tar parrel loot strike colors.<br>
+              <br>Schooner Admiral of the Black overhaul spanker lateen sail pillage grapple holystone loaded to the gunwalls killick. Scurvy rope's end crack Jennys tea cup rum topsail interloper clap of thunder take a caulk bounty run a rig. Starboard reef crimp spyglass Pieces of Eight mutiny gangplank maroon walk the plank furl.</p>
+          </div>
+        </div>
+        </section>
+   </div>
+    <!-- Footer -->
+    <div class="footer">
+      <p>A class project by Rolando Hernandez</p>
+    </div>
+  </div>
     <!-- Closing scripts here -->
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
-  </body>
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
 </html>

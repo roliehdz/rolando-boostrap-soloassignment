@@ -1,4 +1,75 @@
 // Custom variable overrides go here
+$primary: grey;
+$secondary: blue;
+
+.jumbotron {
+  background-image: url(../img/pirate-ship.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Indie Flower', Times, serif;
+  text-align: center;
+  color: white;
+}
+
+a:hover{
+  color:black;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 40px
+}
+
+#caption {
+  margin-left: 40px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#source {
+  margin-left: 40px;
+  font-style: italic;
+}
+
+.column {
+  float: center;
+  height: 300px; 
+  margin: 35px;
+}
+
+#headline {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  width: 400px;
+}
+
+#body {
+  width: 650px;
+  margin-bottom: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+
 // For options, see node_modules/bootstrap/scss/_variables.scss
 // examples:
 // $body-bg: black;
